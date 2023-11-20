@@ -2,59 +2,70 @@
 <head>
     <title>Forms</title>
     <link rel="icon" type="image/jpg" href="/Images/favicon.jpeg">
-    <a href="practiceHome.html">
-        Back to Practice
-    </a>
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <form action="index.php" method="POST" enctype="multipart/form-data">
+    <header>
+        <a href="practiceHome.html">
+            Back to Practice
+        </a>
+    </header>
+    <main>
+        <form action="index.php" method="POST" enctype="multipart/form-data">
 
-        <label for="username">Username:</label>
-        <input type="text" id="username" placeholder="username" minlength="2" maxlength="15" required>
-
-        <br><label for="password">Password:</label>
-        <input type="password" id="password" minlength="2" maxlength="15" required>
-
-        <br><label for="email">Email:</label>
-        <input type="email" id="email" placeholder="email@example.com">
-
-        <br><label for="phone">Phone #:</label>
-        <input type="tel" id="phone" placeholder="(123) 456-7890" pattern="\([0-9]{3}\) [0-9]{3}-[0-9]{4}">
-
-        <br><label for="bday">Birthdate:</label>
-        <input type="date" id="bday">
-
-        <br><label for="quantity">Quantity:</label>
-        <input type="number" id="quantity" min="0" max="100" value="50">
-
-        <br><label for="title">Title:</label>
-
-        <label for="Mr.">Mr.</label>
-        <input type="radio" id="Mr." value="Mr." name="title">
-        <label for="Ms.">Ms.</label>
-        <input type="radio" id="Ms." value="Ms." name="title">
-        <label for="PhD.">PhD.</label>
-        <input type="radio" id="PhD." value="PhD." name="title">
-
-        <br><label for="pay">Payment:</label>
-        <select id="pay">
-            <option value="Visa">Visa</option>
-            <option value="MasterCard">MasterCard</option>
-            <option value="Gift Card">Gift Card</option>
-        </select>
-
-        <br><label for="subscribe">Subscribe:</label>
-        <input type="checkbox" id="subscribe">
-
-        <br><label for="comment">Comment:</label>
-        <textarea id="comment" rows="3" cols="25">Enter your text here</textarea>>
-
-        <br><label for="file">File:</label>
-        <input type="file" id="file" accept="image/png, image/jpeg">
-
-        <br><input type="reset"><br>
-        <input type="submit">
-
-    </form>
+            <label for="username">Username:</label>
+            <input type="text" id="username" placeholder="username" minlength="2" maxlength="15" required>
+    
+            <br><label for="password">Password:</label>
+            <input type="password" id="password" minlength="2" maxlength="15" required>
+    
+            <br><label for="email">Email:</label>
+            <input type="email" id="email" placeholder="email@example.com">
+    
+            <br><label for="phone">Phone #:</label>
+            <input type="tel" id="phone" placeholder="(123) 456-7890" pattern="\([0-9]{3}\) [0-9]{3}-[0-9]{4}">
+    
+            <br><label for="bday">Birthdate:</label>
+            <input type="date" id="bday">
+    
+            <br><label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" min="0" max="100" value="50">
+    
+            <br><label for="title">Title:</label>
+    
+            <label for="Mr.">Mr.</label>
+            <input type="radio" id="Mr." value="Mr." name="title">
+            <label for="Ms.">Ms.</label>
+            <input type="radio" id="Ms." value="Ms." name="title">
+            <label for="PhD.">PhD.</label>
+            <input type="radio" id="PhD." value="PhD." name="title">
+    
+            <br><label for="pay">Payment:</label>
+            <select id="pay">
+                <option value="Visa">Visa</option>
+                <option value="MasterCard">MasterCard</option>
+                <option value="Gift Card">Gift Card</option>
+            </select>
+    
+            <br><label for="subscribe">Subscribe:</label>
+            <input type="checkbox" id="subscribe">
+    
+            <br><label for="comment">Comment:</label>
+            <textarea id="comment" rows="3" cols="25">Enter your text here</textarea>>
+    
+            <br><label for="file">File:</label>
+            <input type="file" id="file" accept="image/png, image/jpeg">
+    
+            <br><input type="reset"><br>
+            <input type="submit">
+    
+        </form>
+    </main>
+    <footer>
+        <hr>
+        Author: Joel Aguirre<br>
+        &copy; copyright reserved<br>
+        <small><a href="mailto:joelaaguirre12+gitSite@gmail.com">joelaaguirre12@gmail.com</a></small>
+    </footer>
 </body>
 </html>

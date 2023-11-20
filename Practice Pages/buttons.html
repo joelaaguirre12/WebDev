@@ -2,29 +2,39 @@
 <head>
     <title>Buttons</title>
     <link rel="icon" type="image/jpg" href="/Images/favicon.jpeg">
-    <a href="practiceHome.html">
-        Back to Practice
-    </a>
-    <br><br>
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <a target="_blank" href="https://www.google.com">
-    <button style="font-size: 25px; background-color: blueviolet; color: gold; border-radius: 25px;">Google</button>
-    </a>
-
-    <br><br>
-
-    <button onclick="doSomething()" style="font-size: 25px; background-color: gold; color: blueviolet; border-radius: 25px;">Javascript</button>
-
-    <p id="Greeting">
-        Hello
-    </p>
-
-    <script>
-        function doSomething() {
-            document.getElementById("Greeting").innerHTML = "Goodbye";
-        }
-    </script>
+    <header>
+        <a href="practiceHome.html">
+            Back to Practice
+        </a>
+    </header>
+    <main>
+        <a target="_blank" href="https://www.google.com">
+        <button style="font-size: 25px; background-color: blueviolet; color: gold; border-radius: 25px;">Google</button>
+        </a>
+    
+        <br><br>
+    
+        <button onclick="doSomething()" style="font-size: 25px; background-color: gold; color: blueviolet; border-radius: 25px;">Javascript</button>
+    
+        <p id="Greeting">
+            Hello
+        </p>
+    
+        <script>
+            function doSomething() {
+                document.getElementById("Greeting").innerHTML = "Goodbye";
+            }
+        </script>
+    </main>
+    <footer>
+        <hr>
+        Author: Joel Aguirre<br>
+        &copy; copyright reserved<br>
+        <small><a href="mailto:joelaaguirre12+gitSite@gmail.com">joelaaguirre12@gmail.com</a></small>
+    </footer>
 
 </body>
 </html>
