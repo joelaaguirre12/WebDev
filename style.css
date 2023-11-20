@@ -8,3 +8,9 @@ header{
 footer{
     background-color: crimson;
 }
+h1{
+    text-shadow: 3px 3px 3px lawngreen;
+}
+h2{
+    text-shadow: 3px 3px 3px rgb(65, 194, 65);
+}
